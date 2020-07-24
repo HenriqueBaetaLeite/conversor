@@ -1,5 +1,5 @@
 .main {
-  margin: 30px auto;
+  margin: 40px auto;
   align-items: center;
   display: flex;  
   justify-content: space-around;
@@ -7,10 +7,10 @@
   border: 2px solid rgb(0, 0, 0);
   border-radius: 10px;
   max-width: 900px;
-  background-color: burlywood;
+  background-image: linear-gradient(8deg, white, rgb(139, 138, 138), white, rgb(139, 138, 138));
 }
 
-.conversor {
+.conversor {  
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@
   min-width: 150px;
   background: cornsilk;
   box-shadow: -2px -1px 6px black;
+  border-radius: 5px;
 }
 
 .container {  
@@ -30,23 +31,34 @@
 .button {
   cursor: pointer;
   margin: 5px;
-  background-color: rgb(193, 194, 190);
+  background-color: rgb(211, 209, 201);
   text-decoration: none;
   border: 1px solid black;
   box-shadow: 1px 1px 2px black;
   transition: all 0.5s;
+  outline: none;
 }
 
 .button:hover {
-  border-radius: 8px;
+  border-radius: 4px;
+  background: rgb(165, 196, 243);
 }
 
 a {
-  text-decoration: none;
   color: black;
   transition: all 2s;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover {  
+  text-decoration: none;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+@media (max-width: 610px) {  
+  .conversor {
+    margin: 10px auto;    
+  }
 }
