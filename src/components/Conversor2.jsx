@@ -4,7 +4,7 @@ export default class Conversor2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      moedaA_valor: 0,
+      moedaA_valor: 1,
       moedaB_valor: 0,
     };
   }
