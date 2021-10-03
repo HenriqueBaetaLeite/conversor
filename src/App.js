@@ -28,7 +28,7 @@ const App = () => {
       <p>
         Desenvolvido por{' '}
         <a
-          href="https://www.linkedin.com/in/henrique-ba%C3%AAta-leite-785a4b15a/"
+          href="https://www.linkedin.com/in/henriquebaetaleite"
           target="_blank"
           rel="noopener noreferrer"
         >
